@@ -1,0 +1,55 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.todo-container {
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #6f2525;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #d1d7d9;
+  color :#0d0305;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #35c515;
+}
+
+/* For the list items */
+.todo-list li {
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Hover effect for list items */
+.todo-list li:hover {
+  background-color: #a3e4d7;
+}
